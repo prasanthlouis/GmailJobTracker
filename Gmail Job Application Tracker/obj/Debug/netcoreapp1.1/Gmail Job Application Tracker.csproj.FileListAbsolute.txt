@@ -1,0 +1,7 @@
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\bin\Debug\netcoreapp1.1\Gmail Job Application Tracker.deps.json
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\bin\Debug\netcoreapp1.1\Gmail Job Application Tracker.runtimeconfig.json
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\bin\Debug\netcoreapp1.1\Gmail Job Application Tracker.runtimeconfig.dev.json
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\bin\Debug\netcoreapp1.1\Gmail Job Application Tracker.dll
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\obj\Debug\netcoreapp1.1\Gmail Job Application Tracker.csprojResolveAssemblyReference.cache
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\obj\Debug\netcoreapp1.1\Gmail Job Application Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Prasanth\source\repos\Gmail Job Application Tracker\Gmail Job Application Tracker\obj\Debug\netcoreapp1.1\Gmail Job Application Tracker.AssemblyInfo.cs
