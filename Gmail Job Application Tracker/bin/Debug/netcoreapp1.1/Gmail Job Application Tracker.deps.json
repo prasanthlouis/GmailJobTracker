@@ -1,14 +1,110 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "915f0cce2226311a1d134f3a8b8cf2a97adfed67"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "gmail job application tracker/1.0.0": {
+        "dependencies": {
+          "Google.Apis.Gmail.v1": "1.32.2.1139"
+        },
         "runtime": {
           "Gmail Job Application Tracker.dll": {}
+        }
+      },
+      "google.apis/1.32.2": {
+        "dependencies": {
+          "Google.Apis.Core": "1.32.2",
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.dll": {}
+        }
+      },
+      "google.apis.auth/1.32.2": {
+        "dependencies": {
+          "Google.Apis": "1.32.2",
+          "Google.Apis.Core": "1.32.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard1.3/Google.Apis.Auth.dll": {}
+        }
+      },
+      "google.apis.core/1.32.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Core.dll": {}
+        }
+      },
+      "google.apis.gmail.v1/1.32.2.1139": {
+        "dependencies": {
+          "Google.Apis": "1.32.2",
+          "Google.Apis.Auth": "1.32.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Gmail.v1.dll": {}
+        }
+      },
+      "newtonsoft.json/10.0.2": {
+        "dependencies": {
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "system.collections.nongeneric/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "system.collections.specialized/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "system.componentmodel.primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "system.componentmodel.typeconverter/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "system.runtime.serialization.formatters/4.3.0": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "system.runtime.serialization.primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "system.xml.xmldocument/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       }
     }
@@ -18,6 +114,90 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "google.apis/1.32.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-20xEYtPX1QgwHdqu8bDqUzXLLCvTrzk8/rPeYfz96BDiFlXciou4l7qzNiiIm1Px/TH7X3Axb4D7mpOQkjGZ3w==",
+      "path": "google.apis/1.32.2",
+      "hashPath": "google.apis.1.32.2.nupkg.sha512"
+    },
+    "google.apis.auth/1.32.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qPQRLNNLM3zHeuMnUUmtc69VKJ1ArM+ek0uMjKa+5cRNGLSCONsJXguny8v+r+RP4UWlSy7Aa7B97nJw37IHaA==",
+      "path": "google.apis.auth/1.32.2",
+      "hashPath": "google.apis.auth.1.32.2.nupkg.sha512"
+    },
+    "google.apis.core/1.32.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VtQj49pU68puQd2CcEPo7DPA+QzUMHBSbQB9ynyAl7e1RCYtse+b/eMmvmPP9frwFcLIO0x5OALf8PW4rqXsJQ==",
+      "path": "google.apis.core/1.32.2",
+      "hashPath": "google.apis.core.1.32.2.nupkg.sha512"
+    },
+    "google.apis.gmail.v1/1.32.2.1139": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HaY5YsZUsHXaq6Pi+0DysmohtC/UgWvhIxg4jw5jCwedczlgF3YSJpfmL2aBUbIzcFpbkXm1CpGuZ+QFpLIdrQ==",
+      "path": "google.apis.gmail.v1/1.32.2.1139",
+      "hashPath": "google.apis.gmail.v1.1.32.2.1139.nupkg.sha512"
+    },
+    "newtonsoft.json/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iwElSU2IXmwGvytJsezyDML2ZWDkG2JzTYzlU/BNlmzMdlmRvbnwITsGGY74gwVEpDli1UdOLkMT7/3jxWvXzA==",
+      "path": "newtonsoft.json/10.0.2",
+      "hashPath": "newtonsoft.json.10.0.2.nupkg.sha512"
+    },
+    "system.collections.nongeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "system.collections.specialized/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "path": "system.collections.specialized/4.3.0",
+      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
+    },
+    "system.componentmodel.primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
+    "system.componentmodel.typeconverter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "path": "system.componentmodel.typeconverter/4.3.0",
+      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
+    },
+    "system.runtime.serialization.formatters/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
+    },
+    "system.runtime.serialization.primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    },
+    "system.xml.xmldocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "path": "system.xml.xmldocument/4.3.0",
+      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     }
   }
 }

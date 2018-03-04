@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Gmail.v1" Version="1.32.2.1139" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="client_id.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
